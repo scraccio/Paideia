@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:screenOrientation="portrait"
+    android:backgroundTint="#939393"
+    android:backgroundTintMode="multiply"
+    android:visibility="visible">
+
+
+    <TextView
+        android:id="@+id/registrazione"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:text="Registrazione"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/emailregister"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/logintext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="register"
+        android:text="Registrati"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password2register" />
+
+    <EditText
+        android:id="@+id/passwordregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="15dp"
+        android:drawableTint="#FFFFFF"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#C3FFFFFF"
+        android:textColorHint="#ADFFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/emailregister"
+        app:layout_constraintTop_toBottomOf="@+id/emailregister" />
+
+    <EditText
+        android:id="@+id/password2register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="15dp"
+        android:drawableTint="#FFFFFF"
+        android:ems="10"
+        android:hint="Conferma password"
+        android:inputType="textPassword"
+        android:textColor="#C3FFFFFF"
+        android:textColorHint="#ADFFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/passwordregister"
+        app:layout_constraintTop_toTopOf="@+id/passwordregister" />
+
+    <EditText
+        android:id="@+id/emailregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="268dp"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="15dp"
+        android:drawableTint="#FFFFFF"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColor="#C3FFFFFF"
+        android:textColorHint="#ADFFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "436322176040",
+    "project_id": "paideia-fa077",
+    "storage_bucket": "paideia-fa077.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436322176040:android:d97f4a3fb80ed1f5ceb91d",
+        "android_client_info": {
+          "package_name": "com.example.paideia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436322176040-99atog26q6tc4e6u5rrd62p3affphpuo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqTzyM1VtGDdxphereeq4n1i3y2ij4gQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436322176040-99atog26q6tc4e6u5rrd62p3affphpuo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436322176040:android:b23fa6e4b7977b1bceb91d",
+        "android_client_info": {
+          "package_name": "com.example.paideia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436322176040-99atog26q6tc4e6u5rrd62p3affphpuo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqTzyM1VtGDdxphereeq4n1i3y2ij4gQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436322176040-99atog26q6tc4e6u5rrd62p3affphpuo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

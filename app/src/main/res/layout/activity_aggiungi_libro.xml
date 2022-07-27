@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aggiungi_libro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="87dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:layout_weight="1"
+            android:background="@color/purple"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/aggiungilibro"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="1dp"
+
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="41dp"
+                    android:layout_height="51dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="#0000"
+                    android:onClick="gridClick"
+                    app:srcCompat="@drawable/menulogo"
+                    app:tint="@color/white"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="40dp"
+                    android:layout_height="43dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:background="#0000"
+                    android:onClick="toBasket"
+                    app:srcCompat="@drawable/bag"
+                    app:tint="@color/white"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="41dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:onClick="toAccount"
+                    android:scaleX="0.9"
+                    android:scaleY="0.9"
+                    app:srcCompat="@drawable/useraccount"
+                    app:tint="@color/white"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="45dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <EditText
+            android:id="@+id/titolo"
+            android:layout_width="364dp"
+            android:layout_height="50dp"
+            android:drawablePadding="15dp"
+            android:drawableTint="#FFFFFF"
+            android:ems="10"
+            android:hint="Titolo"
+            android:inputType="text"
+            android:textColor="#FFFFFFFF"
+            android:textColorHint="#C1000000"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp">
+
+                <EditText
+                    android:id="@+id/autore"
+                    android:layout_width="160dp"
+                    android:layout_height="50dp"
+                    android:drawablePadding="15dp"
+                    android:drawableTint="#FFFFFF"
+                    android:ems="10"
+                    android:hint="Autore"
+                    android:layout_marginTop="10dp"
+                    android:inputType="text"
+                    android:textColor="#FFFFFFFF"
+                    android:textColorHint="#C1000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/prezzo"
+                    android:layout_width="160dp"
+                    android:layout_height="50dp"
+                    android:drawablePadding="15dp"
+                    android:drawableTint="#FFFFFF"
+                    android:ems="10"
+                    android:hint="Prezzo (€)"
+                    android:layout_marginTop="20dp"
+                    android:inputType="numberDecimal"
+                    android:textColor="#FFFFFFFF"
+                    android:textColorHint="#C1000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/descrizione"
+                    android:layout_width="160dp"
+                    android:layout_height="133dp"
+                    android:drawablePadding="15dp"
+                    android:drawableTint="#FFFFFF"
+                    android:ems="10"
+                    android:hint="Descrizione"
+                    android:layout_marginTop="20dp"
+                    android:inputType="textMultiLine"
+                    android:textColor="#FFFFFFFF"
+                    android:textColorHint="#C1000000"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="180dp"
+                android:layout_height="277dp"
+                android:onClick="openGallery"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/placeholder"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/conferma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:onClick="addItem"
+            android:text="@string/conferma" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Simon/AndroidStudioProjects/Paideia/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Simon/AndroidStudioProjects/Paideia/app/src/main/res/drawable/plus_button.xml" value="0.2595" />
+        <entry key="..\:/Users/Simon/AndroidStudioProjects/Paideia/app/src/main/res/layout/activity_account.xml" value="0.2" />
+        <entry key="..\:/Users/Simon/AndroidStudioProjects/Paideia/app/src/main/res/layout/activity_aggiungi_libro.xml" value="0.264" />
+        <entry key="..\:/Users/Simon/AndroidStudioProjects/Paideia/app/src/main/res/layout/activity_basket.xml" value="0.264" />
+        <entry key="..\:/Users/Simon/AndroidStudioProjects/Paideia/app/src/main/res/layout/activity_book.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/Simon/AndroidStudioProjects/Paideia/app/src/main/res/layout/activity_content.xml" value="0.2" />
+        <entry key="..\:/Users/Simon/AndroidStudioProjects/Paideia/app/src/main/res/layout/activity_item.xml" value="0.35302806499261447" />
+        <entry key="..\:/Users/Simon/AndroidStudioProjects/Paideia/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Simon/AndroidStudioProjects/Paideia/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Simon/AndroidStudioProjects/Paideia/app/src/main/res/layout/drawer_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Simon/AndroidStudioProjects/Paideia/app/src/main/res/layout/minus_button.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Simon/AndroidStudioProjects/Paideia/app/src/main/res/layout/navigation_bar.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/Simon/AndroidStudioProjects/Paideia/app/src/main/res/layout/plus_button.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Simon/AndroidStudioProjects/Paideia/app/src/main/res/layout/recyclerview_item.xml" value="0.6" />
+        <entry key="..\:/Users/Simon/AndroidStudioProjects/Paideia/app/src/main/res/layout/removebasket.xml" value="0.12447916666666667" />
+        <entry key="..\:/Users/Simon/AndroidStudioProjects/Paideia/app/src/main/res/menu/navigation_bar.xml" value="0.2" />
+        <entry key="..\:/Users/Simon/AndroidStudioProjects/Paideia/app/src/main/res/menu/plus_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Simon/AndroidStudioProjects/Paideia/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/Simon/AndroidStudioProjects/Paideia/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

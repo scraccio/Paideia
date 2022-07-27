@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Paideia</string>
+    <string name="appname">Paideia</string>
+    <string name="logintext">login</string>
+    <string name="catalogo">Catalogo</string>
+    <string name="carrello">Carrello</string>
+    <string name="account">Account</string>
+    <string name="logout">Logout</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="rimuovi">Rimuovi dal carrello</string>
+    <string name="aggiungi">Aggiungi al carrello</string>
+    <string name="aggiungilibro">Aggiungi un libro</string>
+    <string name="conferma">Conferma e aggiungi</string>
+    <string name="testoregistrazione">Non sei registrato?\nClicca qui per procedere</string>
+</resources>
