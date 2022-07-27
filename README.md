@@ -1,2 +1,2 @@
 # Paideia
-Simple bookstore app
+Simple bookstore app with Firebase Realtime Database integration
