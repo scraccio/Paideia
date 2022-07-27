@@ -1,0 +1,2 @@
+# Paideia
+Simple bookstore app
